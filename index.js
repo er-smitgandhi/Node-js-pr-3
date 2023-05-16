@@ -26,6 +26,9 @@ app.get('/table',(req,res)=>{
     return res.render('table');
 })
 
+app.get('/charts',(req,res)=>{
+    return res.render('charts');
+})
 
 app.listen(port,(err)=>{
     if(err){
